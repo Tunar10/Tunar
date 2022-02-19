@@ -9,11 +9,11 @@ body {
         height: 100%;
 
         .d1 {
-            height: 737px;
+margin:0;
+position: sticky;
             width: 20%;
             position: sticky;
             background: #5655da;
-
             img {
                 height: 150px;
                 width: 150px;
@@ -283,7 +283,8 @@ body {
                         color: black;
                     }
                 }
-                .t2{
+
+                .t2 {
                     h2 {
                         margin-top: 100px;
                     }
@@ -306,7 +307,8 @@ body {
                         color: black;
                     }
                 }
-                .t3{
+
+                .t3 {
                     h2 {
                         margin-top: 100px;
                     }
@@ -330,7 +332,8 @@ body {
                     }
                 }
             }
-            .a4b{
+
+            .a4b {
                 .t1 {
                     h2 {
                         margin-top: 100px;
@@ -354,7 +357,8 @@ body {
                         color: black;
                     }
                 }
-                .t2{
+
+                .t2 {
                     h2 {
                         margin-top: 100px;
                     }
@@ -377,7 +381,8 @@ body {
                         color: black;
                     }
                 }
-                .t3{
+
+                .t3 {
                     h2 {
                         margin-top: 100px;
                     }
@@ -399,6 +404,39 @@ body {
                         font-size: 14px;
                         color: black;
                     }
+                }
+            }
+
+            .inp {
+                .in1 {
+                    input {
+                        border: none;
+                        border-bottom: 1px solid black;
+                        padding-bottom: 10px;
+                        width: 40%;
+                    }
+                }
+                .in2{
+                    input{
+                        padding-top: 40px;
+                        padding-bottom: 10px;
+                        width: 40%;
+                        border: none;
+                        border-bottom: 1px solid black;
+                    }
+                }
+                button{
+                    background-color: #5655da;
+                    border: none;
+                    border-radius: 3px;
+                padding: 8px 16px;
+                color: white;
+                }
+                button:active{
+                    padding: 5px 13px;
+                    border: 2px solid black;
+                    background-color: rgb(189, 186, 186);
+                    color: grey;
                 }
             }
         }

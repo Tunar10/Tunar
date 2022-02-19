@@ -15,9 +15,10 @@ body .container {
 }
 
 body .container .d1 {
-  height: 737px;
-  width: 20%;
+  margin: 0;
   position: -webkit-sticky;
+  position: sticky;
+  width: 20%;
   position: sticky;
   background: #5655da;
 }
@@ -411,5 +412,35 @@ body .container .d2 .a4b .t3 p {
 body .container .d2 .a4b .t3 .p2 {
   font-size: 14px;
   color: black;
+}
+
+body .container .d2 .inp .in1 input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  width: 40%;
+}
+
+body .container .d2 .inp .in2 input {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+body .container .d2 .inp button {
+  background-color: #5655da;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  color: white;
+}
+
+body .container .d2 .inp button:active {
+  padding: 5px 13px;
+  border: 2px solid black;
+  background-color: #bdbaba;
+  color: grey;
 }
 /*# sourceMappingURL=проект.css.map */
